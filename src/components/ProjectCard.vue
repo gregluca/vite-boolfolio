@@ -1,10 +1,12 @@
 <script>
+import { store } from '../store';
 export default {
     props: {
         project: Object
     },
     data() {
         return {
+            store
         }
     },
     computed: {
