@@ -1,9 +1,10 @@
 <script>
 import AppMain from './components/AppMain.vue'; 
+import AppHeader from './components/AppHeader.vue'; 
 
 export default{
 
-  components: {AppMain},
+  components: {AppMain,AppHeader},
 
   data(){
     return{
@@ -15,8 +16,9 @@ export default{
 </script>
 
 <template>
-   <h1>App.vue</h1>
-   <AppMain/>
+  <AppHeader />
+  <h1>App.vue</h1>
+  <router-view></router-view>
 </template>
 
 <style lang="scss">
