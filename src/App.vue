@@ -15,7 +15,7 @@ export default{
 </script>
 
 <template>
-   <h1>ciao</h1>
+   <h1>App.vue</h1>
    <AppMain/>
 </template>
 
