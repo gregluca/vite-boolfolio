@@ -1,10 +1,10 @@
 <script>
-import AppMain from './components/AppMain.vue'; 
-import AppHeader from './components/AppHeader.vue'; 
+// import AppMain from './components/AppMain.vue'; 
+import AppHeader from './components/AppHeader.vue';
 
 export default{
 
-  components: {AppMain,AppHeader},
+  components: {AppHeader},
 
   data(){
     return{
